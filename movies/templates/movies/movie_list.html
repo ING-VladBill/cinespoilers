@@ -1,0 +1,11 @@
+<h1>Películas</h1>
+
+<ul>
+  {% for movie in movies %}
+    <li>
+      <strong>{{ movie.title }}</strong> - {{ movie.release_date }}
+    </li>
+  {% empty %}
+    <li>No hay películas</li>
+  {% endfor %}
+</ul>
