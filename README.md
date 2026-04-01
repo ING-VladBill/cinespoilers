@@ -16,3 +16,6 @@
 ## Administracion de Entidades
 
 !['Creación del repositorio'](./docs/admin.png)
+
+## Creacion de Front simple
+!['Creación del repositorio'](./docs/front.png)
