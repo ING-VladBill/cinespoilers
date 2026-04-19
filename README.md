@@ -12,7 +12,7 @@ python -m venv venv
 venv\Scripts\activate
 4. Instalar dependencias
 pip install -r requirements.txt
-5. Aplicar migraciones
+5. Aplicar migracionesgit status
 python manage.py migrate
 6. Crear superusuario (opcional)
 python manage.py createsuperuser
