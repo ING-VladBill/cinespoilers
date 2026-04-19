@@ -1,29 +1,47 @@
-# William Julon Mejia 
+# Implementación de API REST (Django REST Framework)
+---
+## William Julon Mejia 
+## Alexander Sanabria
+## Gabriel Llanos
+
+---
 
 ## Ejecución del proyecto (clonado)
 
 ### 1. Clonar repositorio
+
 ```bash
 git clone https://github.com/ING-VladBill/cinespoilers
 cd cinespoilers
+
 2. Crear entorno virtual
 python -m venv venv
+
 3. Activar entorno virtual (Windows)
 venv\Scripts\activate
+
 4. Instalar dependencias
 pip install -r requirements.txt
+
 5. Aplicar migracionesgit status
 python manage.py migrate
+
 6. Crear superusuario (opcional)
 python manage.py createsuperuser
+
 7. Ejecutar servidor
 python manage.py runserver
+
 8. Acceder al sistema
 API Root: http://127.0.0.1:8000/api/
+
 Movies API: http://127.0.0.1:8000/api/movies/
+
 Admin: http://127.0.0.1:8000/admin/
 ```
-## Implementación de API REST (Django REST Framework)
+
+
+# William Julon Mejia - Capturas
 
 ## Consumo de la API
 
@@ -73,3 +91,48 @@ Admin: http://127.0.0.1:8000/admin/
 
 !['BD - Borrar Movie'](./docs/bd_delete.png)
 
+# Alexander Sanabria - Capturas
+
+### API ROOT
+
+!['BD - Borrar Movie'](./docs/raiz_api.png)
+
+---
+### Listado de peliculas
+!['BD - Borrar Movie'](./docs/lista_movies.png)
+---
+## ENDPOINTS
+### GET
+!['BD - Borrar Movie'](./docs/apiget.png)
+### BD Get
+!['BD - Borrar Movie'](./docs/bdget.png)
+
+---
+
+### POST
+!['BD - Borrar Movie'](./docs/apipost.png)
+### BD Post
+!['BD - Borrar Movie'](./docs/bdpost.png)
+
+---
+
+### PUT
+!['BD - Borrar Movie'](./docs/apiput.png)
+### BD Put
+!['BD - Borrar Movie'](./docs/bdputeditado.png)
+
+---
+
+### PATCH
+!['BD - Borrar Movie'](./docs/apipach.png)
+
+### BD Patch
+!['BD - Borrar Movie'](./docs/bdpach.png)
+
+---
+
+### DELETE
+!['BD - Borrar Movie'](./docs/delete5.png)
+
+### BD Delete
+!['BD - Borrar Movie'](./docs/encuatro.png)
