@@ -136,3 +136,53 @@ Admin: http://127.0.0.1:8000/admin/
 
 ### BD Delete
 !['BD - Borrar Movie'](./docs/encuatro.png)
+
+# Gabriel Llanos Pacheco - Capturas
+
+## API ROOT
+
+!['API Root'](./docs/gllanos_apiroot.png)
+
+## Listado de Movies 
+
+!['Listado de Movies'](./docs/gllanos_apimovie.png)
+
+
+
+## GET - Movies
+
+!['Listado de Movies'](./docs/gllanos_get_movie.png)
+
+!['BD - Listado de Movies'](./docs/gllanos_get_bd.png)
+
+---
+
+## POST - Movies
+
+!['Registrar Movie'](./docs/gllanos_post_movie.png)
+
+!['BD - Registrar Movie'](./docs/gllanos_get_bd_2.png)
+
+---
+
+## PUT - Movies
+
+!['Reemplazar Movie'](./docs/gllanos_put_movie.png)
+
+!['BD - Reemplazar Movie'](./docs/gllanos_get_bd_3.png)
+
+---
+
+## PATCH - Movies
+
+!['Actualizar Movie'](./docs/gllanos_patch_movie.png)
+
+!['BD - Actualizar Movie'](./docs/gllanos_get_bd_4.png)
+
+---
+
+## DELETE - Movies
+
+!['Borrar Movie'](./docs/gllanos_delete_movie.png)
+
+!['BD - Borrar Movie'](./docs/gllanos_get_bd_5.png)
