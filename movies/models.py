@@ -33,3 +33,9 @@ class Movie(models.Model):
     def __str__(self):
         return self.title
     
+class ShowTime(models.Model):
+    movie = models.ForeignKey('Movie', on_delete=models.CASCADE)
+    date = models.DateTimeField()
+
+    def __str__(self):
+        return f"{self.movie} - {self.date}"

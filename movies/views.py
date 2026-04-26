@@ -1,9 +1,10 @@
 from rest_framework import viewsets
 
-from .models import Movie, Genre
+from .models import Movie, Genre, ShowTime
 from .serializers import (
     MovieSerializer,
-    GenreSerializer
+    GenreSerializer,
+    ShowTimeSerializer
 )
 
 
@@ -15,3 +16,9 @@ class MovieViewSet(viewsets.ModelViewSet):
 class GenreViewSet(viewsets.ModelViewSet):
     queryset = Genre.objects.all()
     serializer_class = GenreSerializer
+
+
+
+class ShowTimeViewSet(viewsets.ModelViewSet):
+    queryset = ShowTime.objects.all()
+    serializer_class = ShowTimeSerializer
