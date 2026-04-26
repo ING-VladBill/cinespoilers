@@ -18,13 +18,16 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 from movies.views import GenreViewSet, MovieViewSet, ShowTimeViewSet
+from movies.views import SalaViewSet
 
 router = DefaultRouter()
 router.register(r'movies', MovieViewSet)
 router.register(r'genres', GenreViewSet)
 router.register(r'showtimes', ShowTimeViewSet)
+router.register(r'salas', SalaViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),  # 👈 ESTA LÍNEA ES LA CLAVE
+
 ]

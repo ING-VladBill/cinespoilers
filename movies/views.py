@@ -1,4 +1,6 @@
 from rest_framework import viewsets
+from .models import Sala
+from .serializers import SalaSerializer
 
 from .models import Movie, Genre, ShowTime
 from .serializers import (
@@ -22,3 +24,7 @@ class GenreViewSet(viewsets.ModelViewSet):
 class ShowTimeViewSet(viewsets.ModelViewSet):
     queryset = ShowTime.objects.all()
     serializer_class = ShowTimeSerializer
+
+class SalaViewSet(viewsets.ModelViewSet):
+    queryset = Sala.objects.all()
+    serializer_class = SalaSerializer

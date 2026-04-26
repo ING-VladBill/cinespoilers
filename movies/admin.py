@@ -1,4 +1,5 @@
 from django.contrib import admin
+from .models import Sala
 from .models import Movie, Genre
 from .models import ShowTime
 
@@ -37,3 +38,8 @@ class ShowTimeAdmin(admin.ModelAdmin):
     list_display = ("id", "movie", "date")
     search_fields = ("movie__title",)
     list_filter = ("date",)
+
+@admin.register(Sala)
+class SalaAdmin(admin.ModelAdmin):
+    list_display = ("id", "nombre", "capacidad")
+    search_fields = ("nombre",)

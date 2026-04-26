@@ -88,3 +88,31 @@ Admin: http://127.0.0.1:8000/admin/
 ## DELETE - Genres
 !['Borrar Genre'](./docs/gllanos_delete_genre.png)
 !['BD - Borrar Genre'](./docs/gllanos_bd_delete.png)
+
+# Alexander Sanabria Martinez - Capturas
+
+## API ROOT
+!['API Root'](./docs/alex1.png)
+
+## Listado de Sala
+!['Listado de Sala'](./docs/alex2.png)
+
+## GET - Salas
+!['Listado de Salas'](./docs/alex3.png)
+!['BD - Listado de Salas'](./docs/alex4.png)
+---
+## POST - Salas
+!['Registrar Salas'](./docs/alex5.png)
+!['BD - Registrar Sala'](./docs/alex6.png)
+---
+## PUT - 
+!['Reemplazar Sala'](./docs/alex7.png)
+!['BD - Reemplazar Sala'](./docs/alex8.png)
+---
+## PATCH - Sala
+!['Actualizar Sala'](./docs/alex9.1.png)
+!['BD - Actualizar Sala'](./docs/alex10.png)
+---
+## DELETE - Sala
+!['Borrar Sala'](./docs/alex11.png)
+!['BD - Borrar Sala'](./docs/alex12.png)
