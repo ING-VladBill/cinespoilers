@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Movie, Genre
+from .models import Movie, Genre, ShowTime
 
 
 class GenreSerializer(serializers.ModelSerializer):
@@ -29,3 +29,9 @@ class MovieSerializer(serializers.ModelSerializer):
             "duration",
             "genres"
         ]
+
+
+class ShowTimeSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = ShowTime
+        fields = '__all__'
