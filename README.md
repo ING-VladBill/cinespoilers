@@ -39,150 +39,24 @@ Movies API: http://127.0.0.1:8000/api/movies/
 
 Admin: http://127.0.0.1:8000/admin/
 ```
-
-
-# William Julon Mejia - Capturas
-
-## Consumo de la API
-
-!['API Root'](./docs/api_root.png)
-
-## Listado de Movies 
-
-!['Listado de Movies'](./docs/api_movies.png)
-
-
-
-## Listado de Movies (GET)
-
-!['Listado de Movies'](./docs/api_get.png)
-
-!['BD - Listado de Movies'](./docs/bd_get.png)
-
----
-
-## Registrar Movie (POST)
-
-!['Registrar Movie'](./docs/api_post.png)
-
-!['BD - Registrar Movie'](./docs/bd_post.png)
-
----
-
-## Reemplazar Movie (PUT)
-
-!['Reemplazar Movie'](./docs/api_put.png)
-
-!['BD - Reemplazar Movie'](./docs/bd_put.png)
-
----
-
-## Actualizar parcialmente Movie (PATCH)
-
-!['Actualizar Movie'](./docs/api_patch.png)
-
-!['BD - Actualizar Movie'](./docs/bd_patch.png)
-
----
-
-## Borrar Movie (DELETE)
-
-!['Borrar Movie'](./docs/api_delete.png)
-
-!['BD - Borrar Movie'](./docs/bd_delete.png)
-
-# Alexander Sanabria - Capturas
-
-### API ROOT
-
-!['BD - Borrar Movie'](./docs/raiz_api.png)
-
----
-### Listado de peliculas
-!['BD - Borrar Movie'](./docs/lista_movies.png)
----
-## ENDPOINTS
-### GET
-!['BD - Borrar Movie'](./docs/apiget.png)
-### BD Get
-!['BD - Borrar Movie'](./docs/bdget.png)
-
----
-
-### POST
-!['BD - Borrar Movie'](./docs/apipost.png)
-### BD Post
-!['BD - Borrar Movie'](./docs/bdpost.png)
-
----
-
-### PUT
-!['BD - Borrar Movie'](./docs/apiput.png)
-### BD Put
-!['BD - Borrar Movie'](./docs/bdputeditado.png)
-
----
-
-### PATCH
-!['BD - Borrar Movie'](./docs/apipach.png)
-
-### BD Patch
-!['BD - Borrar Movie'](./docs/bdpach.png)
-
----
-
-### DELETE
-!['BD - Borrar Movie'](./docs/delete5.png)
-
-### BD Delete
-!['BD - Borrar Movie'](./docs/encuatro.png)
-
-# Gabriel Llanos Pacheco - Capturas
-
-## API ROOT
-
-!['API Root'](./docs/gllanos_apiroot.png)
-
-## Listado de Movies 
-
-!['Listado de Movies'](./docs/gllanos_apimovie.png)
-
-
-
-## GET - Movies
-
-!['Listado de Movies'](./docs/gllanos_get_movie.png)
-
-!['BD - Listado de Movies'](./docs/gllanos_get_bd.png)
-
----
-
-## POST - Movies
-
-!['Registrar Movie'](./docs/gllanos_post_movie.png)
-
-!['BD - Registrar Movie'](./docs/gllanos_get_bd_2.png)
-
----
-
-## PUT - Movies
-
-!['Reemplazar Movie'](./docs/gllanos_put_movie.png)
-
-!['BD - Reemplazar Movie'](./docs/gllanos_get_bd_3.png)
-
----
-
-## PATCH - Movies
-
-!['Actualizar Movie'](./docs/gllanos_patch_movie.png)
-
-!['BD - Actualizar Movie'](./docs/gllanos_get_bd_4.png)
-
----
-
-## DELETE - Movies
-
-!['Borrar Movie'](./docs/gllanos_delete_movie.png)
-
-!['BD - Borrar Movie'](./docs/gllanos_get_bd_5.png)
+## Showtime/funciones - William Julon Mejia
+
+### POST: http://127.0.0.1:8000/api/showtimes/
+!['API Root'](./docs/post_funcion.png)
+!['API Root'](./docs/bdpost_funcion.png)
+
+### GET: http://127.0.0.1:8000/api/showtimes/
+!['API Root'](./docs/get_funcion.png)
+!['API Root'](./docs/bdget_funcion.png)
+
+### PUT: http://127.0.0.1:8000/api/showtimes/1/
+!['API Root'](./docs/put_funciones.png)
+!['API Root'](./docs/bdput_funciones.png)
+
+### PATCH: http://127.0.0.1:8000/api/showtimes/1/
+!['API Root'](./docs/patch_funciones.png)
+!['API Root'](./docs/bdpach_funciones.png)
+
+### DELETE: http://127.0.0.1:8000/api/showtimes/1/
+!['API Root'](./docs/delete_funciones.png)
+!['API Root'](./docs/bddelete_funciones.png)
