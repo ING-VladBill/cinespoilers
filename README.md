@@ -1,4 +1,4 @@
-# Implementación de API REST (Django REST Framework)
+# LABORATORIO 6 | FUNCIONALIDADES NUEVAS: GENEROS, FUNCIONES Y SALAS
 ---
 ## William Julon Mejia 
 ## Alexander Sanabria
