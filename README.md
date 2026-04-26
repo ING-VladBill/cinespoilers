@@ -60,3 +60,31 @@ Admin: http://127.0.0.1:8000/admin/
 ### DELETE: http://127.0.0.1:8000/api/showtimes/1/
 !['API Root'](./docs/delete_funciones.png)
 !['API Root'](./docs/bddelete_funciones.png)
+
+# Gabriel Llanos Pacheco - Capturas
+
+## API ROOT
+!['API Root'](./docs/gllanos_api_6.png)
+
+## Listado de Genres
+!['Listado de Genres'](./docs/gllanos_list_genres.png)
+
+## GET - Genres
+!['Listado de Genres'](./docs/gllanos_get_genres.png)
+!['BD - Listado de Genres'](./docs/gllanos_bd_get.png)
+---
+## POST - Genres
+!['Registrar Genre'](./docs/gllanos_post_genre.png)
+!['BD - Registrar Genre'](./docs/gllanos_bd_post.png)
+---
+## PUT - Genres
+!['Reemplazar Genre'](./docs/gllanos_put_genre.png)
+!['BD - Reemplazar Genre'](./docs/gllanos_bd_put.png)
+---
+## PATCH - Genres
+!['Actualizar Genre'](./docs/gllanos_patch_genre.png)
+!['BD - Actualizar Genre'](./docs/gllanos_bd_patch.png)
+---
+## DELETE - Genres
+!['Borrar Genre'](./docs/gllanos_delete_genre.png)
+!['BD - Borrar Genre'](./docs/gllanos_bd_delete.png)
